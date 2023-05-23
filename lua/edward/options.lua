@@ -2,7 +2,7 @@ local nvim = vim.opt
 
 nvim.backup = false -- creates a backup file
 nvim.clipboard = "unnamedplus" -- allows nvim to access the system clipboard
-nvim.cmdheight = 2 -- more space in the nvim line for displaying messages
+nvim.cmdheight = 1 -- space in the nvim line for displaying messages
 nvim.completeopt = { "menuone", "noselect" } -- mostly just for cmp
 nvim.fileencoding = "utf-8" -- the encoding written to a file
 nvim.hlsearch = true -- highlight all mathes on previous search pattern
