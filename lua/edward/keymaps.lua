@@ -8,6 +8,10 @@ vim.g.maplocalleader = " "
 -- Press jk fast to enter
 key("i", "jk", "<Escape>")
 
+key("n", "x", '"_x')
+key("n", "d", '"_d')
+key("x", "d", '"_d')
+key("x", "p", '"_dP')
 
 -- Resize with arrows
 key("n", "<C-Up>", ":resize -2<CR>", opts)
