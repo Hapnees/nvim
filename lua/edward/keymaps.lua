@@ -8,6 +8,7 @@ vim.g.maplocalleader = " "
 -- Press jk fast to enter
 key("i", "jk", "<Escape>")
 
+
 -- Resize with arrows
 key("n", "<C-Up>", ":resize -2<CR>", opts)
 key("n", "<C-Down>", ":resize +2<CR>", opts)
@@ -42,6 +43,7 @@ key("n", "<leader>fs", "<cmd>Telescope live_grep<CR>")
 key("n", "<leader>fc", "<cmd>Telescope grep_string<CR>")
 key("n", "<leader>fb", "<cmd>Telescope buffers<CR>")
 key("n", "<leader>fh", "<cmd>Telescope help_tags<CR>")
+key("n", "<leader>fo", "<cmd>Telescope oldfiles<CR>")
 
 -- Bufferline
 key("n", "<Tab>", "<cmd>BufferLineCycleNext<CR>")
