@@ -38,6 +38,7 @@ return packer.startup(function(use)
 
 	-- Colorscheme
 	use("bluz71/vim-nightfly-colors")
+	use("rebelot/kanagawa.nvim")
 
 	-- Neotree explorer
 	use({ "nvim-neo-tree/neo-tree.nvim", branch = "v2.x" })

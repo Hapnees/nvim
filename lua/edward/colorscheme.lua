@@ -1,9 +1,7 @@
-vim.cmd("colorscheme nightfly")
+vim.cmd("colorscheme kanagawa-dragon")
 
-local status, _ = pcall(vim.cmd, "colorscheme nightfly")
+local status, _ = pcall(vim.cmd, "colorscheme kanagawa-dragon")
 if not status then
-  print("Colorscheme not found")
-  return
+	print("Colorscheme not found")
+	return
 end
-
-
