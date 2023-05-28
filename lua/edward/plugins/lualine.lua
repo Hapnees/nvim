@@ -4,6 +4,7 @@ if not status then
 end
 
 local lualine_nightfly = require("lualine.themes.nightfly")
+local lualine_gruvbox = require("lualine.themes.kanagawa")
 
 local new_colors = {
 	blue = "#65D1FF",
@@ -24,9 +25,14 @@ lualine_nightfly.command = {
 	},
 }
 
+lualine_gruvbox.command.a.gui = "bold"
+lualine_gruvbox.normal.a.gui = "bold"
+lualine_gruvbox.insert.a.gui = "bold"
+lualine_gruvbox.visual.a.gui = "bold"
+
 lualine.setup({
 	options = {
-		theme = lualine_nightfly,
+		theme = lualine_gruvbox,
 		component_separators = { left = "", right = "" },
 		section_separators = { left = " ", right = " " },
 	},
