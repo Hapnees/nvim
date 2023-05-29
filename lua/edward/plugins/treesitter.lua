@@ -4,7 +4,18 @@ if not status then
 end
 
 ts.setup({
-	ensure_installed = { "typescript", "tsx", "javascript", "css", "html", "json", "dockerfile", "gitignore" },
+	ensure_installed = {
+		"typescript",
+		"tsx",
+		"javascript",
+		"css",
+		"html",
+		"json",
+		"dockerfile",
+		"gitignore",
+		"markdown",
+		"markdown_inline",
+	},
 	auto_install = true,
 	sync_install = false,
 	highlight = {
