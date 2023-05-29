@@ -12,6 +12,7 @@ require("edward.plugins.telescope")
 require("edward.plugins.autopairs")
 require("edward.plugins.gitsigns")
 require("edward.plugins.bufferline")
+require("edward.plugins.colorizer")
 
 require("edward.plugins.lsp.mason")
 require("edward.plugins.lsp.lspconfig")
