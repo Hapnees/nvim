@@ -49,6 +49,13 @@ key("n", "<leader>fb", "<cmd>Telescope buffers<CR>")
 key("n", "<leader>fh", "<cmd>Telescope help_tags<CR>")
 key("n", "<leader>fo", "<cmd>Telescope oldfiles<CR>")
 
+-- Git
+key("n", "<leader>gc", "<cmd>Telescope git_commits<CR>")
+key("n", "<leader>gs", "<cmd>Telescope git_status<CR>")
+key("n", "<leader>gp", "<cmd>Gitsigns preview_hunk<CR>")
+key("n", "<leader>gip", "<cmd>Gitsigns preview_hunk_inline<CR>")
+key("n", "<leader>gb", "<cmd>Gitsigns blame_line<CR>")
+
 -- Bufferline
 key("n", "<Tab>", "<cmd>BufferLineCycleNext<CR>")
 key("n", "<S-Tab>", "<cmd>BufferLineCyclePrev<CR>")
