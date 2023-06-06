@@ -28,8 +28,8 @@ nvim.relativenumber = false -- set relative numbered lines
 nvim.numberwidth = 2 -- set number column width to 2 (default 4)
 nvim.signcolumn = "yes" -- always show the sign column
 nvim.wrap = false -- display lines as one long lineA
-nvim.scrolloff = 4 -- page offset
-nvim.sidescrolloff = 4
+nvim.scrolloff = 8 -- page offset
+nvim.sidescrolloff = 8
 nvim.guifont = "JetBrainsMono Nerd Font"
 
 vim.cmd("set whichwrap+=<,>,[,],h,l")
