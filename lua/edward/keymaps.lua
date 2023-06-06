@@ -44,7 +44,7 @@ key("n", "<leader>ge", ":Neotree float git_status<CR>", opts)
 -- Telescope
 key("n", "<leader>ff", "<cmd>Telescope find_files<CR>")
 key("n", "<leader>fs", "<cmd>Telescope live_grep<CR>")
-key("n", "<leader>fc", "<cmd>Telescope grep_string<CR>")
+-- key("n", "<leader>fc", "<cmd>Telescope grep_string<CR>")
 key("n", "<leader>fb", "<cmd>Telescope buffers<CR>")
 key("n", "<leader>fh", "<cmd>Telescope help_tags<CR>")
 key("n", "<leader>fo", "<cmd>Telescope oldfiles<CR>")
